@@ -1,0 +1,37 @@
+/*1*/
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em{
+    color:red;
+}
+/*2*/
+div p a[href]{
+    /*Decidí usar verde para que se distinga del link sin href*/
+    color: green;
+}
+/*3*/
+.ultimo ul li{
+    color: yellow;
+}
+.ultimo ul li a{
+    color:blue;
+}
+/*4*/
+.importante *{
+    color:green;
+}
+.importante h1{
+    color:red;
+}
+/*5*/
+h1[title]{
+    color:blue;
+}
+/*6*/
+ol li a :link{
+    color:blue;
+}
+ol li a :visited{
+    color:purple;
+}
+ol li a{
+    text-decoration: none;
+}
