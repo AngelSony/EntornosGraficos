@@ -2,7 +2,7 @@
 
 class Ciudad{
     private $id;
-    private $nombre;
+    private $ciudad;
     private $pais;
     private $habitantes;
     private $superficie;
@@ -14,11 +14,11 @@ class Ciudad{
     function getId(){
         return $this -> id;
     }
-    function setNombre($nombre){
-        $this -> nombre  = $nombre;
+    function setCiudad($ciudad){
+        $this -> ciudad  = $ciudad;
     }
-    function getNombre(){
-        return  $this -> nombre;
+    function getCiudad(){
+        return  $this -> ciudad;
     }
     function setPais($pais){
         $this -> pais = $pais;
