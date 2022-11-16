@@ -26,21 +26,18 @@ class Ciudad{
     function getPais(){
         return  $this -> pais;
     }
-
     function setHabitantes($habitantes){
         $this -> habitantes = $habitantes;
     }
     function getHabitantes(){
         return  $this -> habitantes;
     }
-
     function setSuperficie($superficie){
         $this -> superficie = $superficie;
     }
     function getSuperficie(){
         return  $this -> superficie;
     }
-
     function setTieneMetro($tieneMetro){
         $this -> tieneMetro = $tieneMetro;
     }
@@ -48,6 +45,5 @@ class Ciudad{
         return  $this -> tieneMetro;
     }
 }
-
 
 ?>
