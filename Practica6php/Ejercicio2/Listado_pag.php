@@ -33,6 +33,7 @@ $total_registros=mysqli_num_rows($vResultado);
 ?>
 <table border=1>
     <tr>
+        <td><b>Id</b></td>
         <td><b>Ciudad</b></td>
         <td><b>Pais</b></td>
         <td><b>Habitantes</b></td>
@@ -43,6 +44,7 @@ $total_registros=mysqli_num_rows($vResultado);
 while ($fila = mysqli_fetch_array($vResultado)){
 ?>
     <tr>
+        <td><?php echo ($fila['id']); ?></td>
         <td><?php echo ($fila['ciudad']); ?></td>
         <td><?php echo ($fila['pais']); ?></td>
         <td><?php echo ($fila['habitantes']); ?></td>
